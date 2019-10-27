@@ -3,8 +3,8 @@ package me.hyoj.demospringjpa;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity(name = "users")
-public class User {
+@Entity
+public class Account {
 
     @Id @GeneratedValue
     private Long id;
